@@ -19,6 +19,7 @@
 				<string>2D2F2812189CD4E1006454FE</string>
 				<string>2D2F2811189CD4E1006454FE</string>
 				<string>F8C0B3A6AC214945ADE2EEB3</string>
+				<string>B7CCADC52A934F3CA7823915</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -198,6 +199,7 @@
 				<string>2D2F2817189CD4E1006454FE</string>
 				<string>2D2F2832189CD4E1006454FE</string>
 				<string>F86BD5FA22F74207A5430A03</string>
+				<string>59CDFFAB2F5B49E1A655635C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -505,6 +507,7 @@
 				<string>2D2F2833189CD4E1006454FE</string>
 				<string>2D2F2835189CD4E1006454FE</string>
 				<string>2D2F2834189CD4E1006454FE</string>
+				<string>DF30A1486C6347E5AC68CB5B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -530,9 +533,11 @@
 			<string>2D2F2845189CD4E1006454FE</string>
 			<key>buildPhases</key>
 			<array>
+				<string>D020EBDD21284657934C47D9</string>
 				<string>2D2F282D189CD4E1006454FE</string>
 				<string>2D2F282E189CD4E1006454FE</string>
 				<string>2D2F282F189CD4E1006454FE</string>
+				<string>8D06CB111CEB401D9F54C356</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -925,6 +930,8 @@
 		</dict>
 		<key>2D2F2846189CD4E1006454FE</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B7CCADC52A934F3CA7823915</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ARCHS</key>
@@ -962,6 +969,8 @@
 		</dict>
 		<key>2D2F2847189CD4E1006454FE</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B7CCADC52A934F3CA7823915</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ARCHS</key>
@@ -991,6 +1000,19 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>59CDFFAB2F5B49E1A655635C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-RACPlaygroundTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>664673561DCC4DA1A2972998</key>
 		<dict>
@@ -1052,6 +1074,82 @@ fi
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>8D06CB111CEB401D9F54C356</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-RACPlaygroundTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B7CCADC52A934F3CA7823915</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-RACPlaygroundTests.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods-RACPlaygroundTests.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D020EBDD21284657934C47D9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>DF30A1486C6347E5AC68CB5B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>59CDFFAB2F5B49E1A655635C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F86BD5FA22F74207A5430A03</key>
 		<dict>

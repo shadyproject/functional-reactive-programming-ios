@@ -2,10 +2,10 @@
  platform :ios, "7.0"
 
 target "RACPlayground" do
-  pod 'RXCollections', '1.0'
+  pod 'ReactiveCocoa', '2.1.4'
 end
 
 target "RACPlaygroundTests" do
-
+  pod 'ReactiveCocoa', '2.1.4'
 end
 

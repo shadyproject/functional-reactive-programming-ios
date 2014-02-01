@@ -7,31 +7,27 @@
 //
 
 #import "RPAppDelegate.h"
-#import "RXCollections/RXCollection.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @implementation RPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSArray *array = @[@(1), @(2), @(3)];
+    NSArray *array = @[@1, @2, @3];
     
-    NSArray *mappedArray = [array rx_mapWithBlock:^id(id each) {
-        return @(pow([each integerValue], 2));
-    }];
+    NSLog(@"Mapped: %@", [[[array rac_sequence] map:^id(id value) {
+        return @(pow([value integerValue], 2));
+    }] array]);
     
-    NSLog(@"Mapped Array: %@", mappedArray);
+    NSLog(@"Filtered: %@", [[[array rac_sequence] filter:^BOOL(id value) {
+        return [value integerValue] % 2 == 0;
+    }] array]);
     
-    NSArray *filteredArray = [array rx_filterWithBlock:^BOOL(id each) {
-        return ([each integerValue] % 2 == 0);
-    }];
-    
-    NSLog(@"Filtered Array: %@", filteredArray);
-    
-    NSNumber *sum = [array rx_foldWithBlock:^id(id memo, id each) {
-        return @([memo integerValue] + [each integerValue]);
-    }];
-    
-    NSLog(@"Sum: %@", sum);
-    
+   
+    NSLog(@"Folded: %@", [[[array rac_sequence] map:^id(id value) {
+        return [value stringValue];
+    }] foldLeftWithStart:@"" reduce:^id(id accumulator, id value) {
+        return [accumulator stringByAppendingString:value];
+    }]);
     return YES;
 }
 							
