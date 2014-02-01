@@ -7,12 +7,31 @@
 //
 
 #import "RPAppDelegate.h"
+#import "RXCollections/RXCollection.h"
 
 @implementation RPAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSArray *array = @[@(1), @(2), @(3)];
+    
+    NSArray *mappedArray = [array rx_mapWithBlock:^id(id each) {
+        return @(pow([each integerValue], 2));
+    }];
+    
+    NSLog(@"Mapped Array: %@", mappedArray);
+    
+    NSArray *filteredArray = [array rx_filterWithBlock:^BOOL(id each) {
+        return ([each integerValue] % 2 == 0);
+    }];
+    
+    NSLog(@"Filtered Array: %@", filteredArray);
+    
+    NSNumber *sum = [array rx_foldWithBlock:^id(id memo, id each) {
+        return @([memo integerValue] + [each integerValue]);
+    }];
+    
+    NSLog(@"Sum: %@", sum);
+    
     return YES;
 }
 							
