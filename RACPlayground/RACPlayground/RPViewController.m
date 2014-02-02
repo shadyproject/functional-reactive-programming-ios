@@ -7,17 +7,26 @@
 //
 
 #import "RPViewController.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface RPViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation RPViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.textField.rac_textSignal subscribeNext:^(id x) {
+        NSLog(@"New value: %@", x);
+    } error:^(NSError *error) {
+        NSLog(@"Error: %@", [error localizedDescription]);
+    } completed:^{
+        NSLog(@"Completed");
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning
