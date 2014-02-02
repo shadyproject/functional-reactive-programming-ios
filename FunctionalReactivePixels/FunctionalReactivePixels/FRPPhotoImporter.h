@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface FRPPhotoImporter : NSObject
-
++ (RACSignal*)importPhotos;
 @end
