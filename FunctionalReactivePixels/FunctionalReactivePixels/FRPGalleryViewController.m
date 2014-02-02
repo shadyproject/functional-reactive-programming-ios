@@ -8,9 +8,10 @@
 
 #import "FRPGalleryViewController.h"
 #import "FRPGalleryFlowLayout.h"
+#import "FRPPhotoImporter.h"
 
 @interface FRPGalleryViewController ()
-
+@property (nonatomic, strong) NSArray *photosArray;
 @end
 
 @implementation FRPGalleryViewController
@@ -24,16 +25,49 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+-(void)loadPopularPhotos{
+    [[FRPPhotoImporter importPhotos] subscribeNext:^(id x) {
+        self.photosArray = x;
+    } error:^(NSError *error) {
+        NSLog(@"Couldn't fetch photos from 500px: %@", error);
+    }];
+}
+
+static NSString *CellIdentifier = @"Cell";
+
+-(void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    self.title = @"Popular on 500px";
+    
+    [self.collectionView registerClass:[FRPCell class] forCellWithReuseIdentifier:CellIdentifier];
+    
+    @weakify(self);
+    
+    [RACObserve(self, photosArray) subscribeNext:^(id x) {
+        @strongify(self);
+        [self.collectionView reloadData];
+    }];
+    
+    [self loadPopularPhotos];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return self.photosArray.count;
+}
+
+-(UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    FRPCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    [cell setPhotoModel:self.photosArray[indexPath.row]];
+    
+    return cell;
 }
 
 @end
