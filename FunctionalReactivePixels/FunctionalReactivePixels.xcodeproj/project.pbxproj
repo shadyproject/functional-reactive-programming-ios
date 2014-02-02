@@ -1,1118 +1,554 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1FAEF27D98AD499CA9885DCF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-FunctionalReactivePixels-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2B839219129E4ECAADC1BB36</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-FunctionalReactivePixelsTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C2414189E0DF000759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C2426189E0DF100759BE4</string>
-				<string>2D6C243F189E0DF100759BE4</string>
-				<string>2D6C241F189E0DF000759BE4</string>
-				<string>2D6C241E189E0DF000759BE4</string>
-				<string>31B951B95AE24067AD24CBA8</string>
-				<string>67C234056A324E96B5C1C760</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2415189E0DF000759BE4</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>FRP</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>shadyproject</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>2D6C2437189E0DF100759BE4</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>2D6C241C189E0DF000759BE4</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D6C2418189E0DF000759BE4</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>2D6C2414189E0DF000759BE4</string>
-			<key>productRefGroup</key>
-			<string>2D6C241E189E0DF000759BE4</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2D6C241C189E0DF000759BE4</string>
-				<string>2D6C2437189E0DF100759BE4</string>
-			</array>
-		</dict>
-		<key>2D6C2418189E0DF000759BE4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2D6C2447189E0DF100759BE4</string>
-				<string>2D6C2448189E0DF100759BE4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2D6C2419189E0DF000759BE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D6C242D189E0DF100759BE4</string>
-				<string>2D6C2431189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C241A189E0DF000759BE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D6C2423189E0DF100759BE4</string>
-				<string>2D6C2425189E0DF100759BE4</string>
-				<string>2D6C2421189E0DF100759BE4</string>
-				<string>620B22DC3E40483DBBF0E8DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C241B189E0DF000759BE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D6C242B189E0DF100759BE4</string>
-				<string>2D6C2433189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C241C189E0DF000759BE4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2D6C2449189E0DF100759BE4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FC34557DDD6D42218DE59705</string>
-				<string>2D6C2419189E0DF000759BE4</string>
-				<string>2D6C241A189E0DF000759BE4</string>
-				<string>2D6C241B189E0DF000759BE4</string>
-				<string>1FAEF27D98AD499CA9885DCF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FunctionalReactivePixels</string>
-			<key>productName</key>
-			<string>FunctionalReactivePixels</string>
-			<key>productReference</key>
-			<string>2D6C241D189E0DF000759BE4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>2D6C241D189E0DF000759BE4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FunctionalReactivePixels.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2D6C241E189E0DF000759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C241D189E0DF000759BE4</string>
-				<string>2D6C2438189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C241F189E0DF000759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C2420189E0DF000759BE4</string>
-				<string>2D6C2422189E0DF100759BE4</string>
-				<string>2D6C2424189E0DF100759BE4</string>
-				<string>2D6C2439189E0DF100759BE4</string>
-				<string>9861EA9714B1416F8A88ADA7</string>
-				<string>B862DB4157AA494E862A3C80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2420189E0DF000759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>2D6C2421189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2420189E0DF000759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2422189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>2D6C2423189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2422189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2424189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>2D6C2425189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2424189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2426189E0DF100759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C242F189E0DF100759BE4</string>
-				<string>2D6C2430189E0DF100759BE4</string>
-				<string>2D6C2432189E0DF100759BE4</string>
-				<string>2D6C2427189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>FunctionalReactivePixels</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2427189E0DF100759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C2428189E0DF100759BE4</string>
-				<string>2D6C2429189E0DF100759BE4</string>
-				<string>2D6C242C189E0DF100759BE4</string>
-				<string>2D6C242E189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2428189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>FunctionalReactivePixels-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2429189E0DF100759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C242A189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C242A189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C242B189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2429189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C242C189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C242D189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C242C189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C242E189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FunctionalReactivePixels-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C242F189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FRPAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2430189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FRPAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2431189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2430189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2432189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2433189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2432189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2434189E0DF100759BE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D6C2446189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C2435189E0DF100759BE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D6C243A189E0DF100759BE4</string>
-				<string>2D6C243C189E0DF100759BE4</string>
-				<string>2D6C243B189E0DF100759BE4</string>
-				<string>6143B775833F4174AE26767E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C2436189E0DF100759BE4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D6C2444189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D6C2437189E0DF100759BE4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2D6C244C189E0DF100759BE4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2FB60317FD8B40238E85AF68</string>
-				<string>2D6C2434189E0DF100759BE4</string>
-				<string>2D6C2435189E0DF100759BE4</string>
-				<string>2D6C2436189E0DF100759BE4</string>
-				<string>2B839219129E4ECAADC1BB36</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2D6C243E189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FunctionalReactivePixelsTests</string>
-			<key>productName</key>
-			<string>FunctionalReactivePixelsTests</string>
-			<key>productReference</key>
-			<string>2D6C2438189E0DF100759BE4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>2D6C2438189E0DF100759BE4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FunctionalReactivePixelsTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2D6C2439189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>2D6C243A189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2439189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C243B189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2420189E0DF000759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C243C189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2424189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C243D189E0DF100759BE4</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2D6C2415189E0DF000759BE4</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2D6C241C189E0DF000759BE4</string>
-			<key>remoteInfo</key>
-			<string>FunctionalReactivePixels</string>
-		</dict>
-		<key>2D6C243E189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>2D6C241C189E0DF000759BE4</string>
-			<key>targetProxy</key>
-			<string>2D6C243D189E0DF100759BE4</string>
-		</dict>
-		<key>2D6C243F189E0DF100759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C2445189E0DF100759BE4</string>
-				<string>2D6C2440189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>FunctionalReactivePixelsTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2440189E0DF100759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C2441189E0DF100759BE4</string>
-				<string>2D6C2442189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2441189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>FunctionalReactivePixelsTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2442189E0DF100759BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D6C2443189E0DF100759BE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2443189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2444189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2442189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2445189E0DF100759BE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FunctionalReactivePixelsTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6C2446189E0DF100759BE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D6C2445189E0DF100759BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6C2447189E0DF100759BE4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2D6C2448189E0DF100759BE4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2D6C2449189E0DF100759BE4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2D6C244A189E0DF100759BE4</string>
-				<string>2D6C244B189E0DF100759BE4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2D6C244A189E0DF100759BE4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>31B951B95AE24067AD24CBA8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>FunctionalReactivePixels/FunctionalReactivePixels-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2D6C244B189E0DF100759BE4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>31B951B95AE24067AD24CBA8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>FunctionalReactivePixels/FunctionalReactivePixels-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2D6C244C189E0DF100759BE4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2D6C244D189E0DF100759BE4</string>
-				<string>2D6C244E189E0DF100759BE4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2D6C244D189E0DF100759BE4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>67C234056A324E96B5C1C760</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/FunctionalReactivePixels.app/FunctionalReactivePixels</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>FunctionalReactivePixelsTests/FunctionalReactivePixelsTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2D6C244E189E0DF100759BE4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>67C234056A324E96B5C1C760</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/FunctionalReactivePixels.app/FunctionalReactivePixels</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>FunctionalReactivePixelsTests/FunctionalReactivePixelsTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2FB60317FD8B40238E85AF68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>31B951B95AE24067AD24CBA8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-FunctionalReactivePixels.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-FunctionalReactivePixels.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6143B775833F4174AE26767E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B862DB4157AA494E862A3C80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>620B22DC3E40483DBBF0E8DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9861EA9714B1416F8A88ADA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67C234056A324E96B5C1C760</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-FunctionalReactivePixelsTests.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-FunctionalReactivePixelsTests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9861EA9714B1416F8A88ADA7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-FunctionalReactivePixels.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B862DB4157AA494E862A3C80</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-FunctionalReactivePixelsTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FC34557DDD6D42218DE59705</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>2D6C2415189E0DF000759BE4</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6C2421189E0DF100759BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2420189E0DF000759BE4 /* Foundation.framework */; };
+		2D6C2423189E0DF100759BE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2422189E0DF100759BE4 /* CoreGraphics.framework */; };
+		2D6C2425189E0DF100759BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2424189E0DF100759BE4 /* UIKit.framework */; };
+		2D6C242B189E0DF100759BE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C2429189E0DF100759BE4 /* InfoPlist.strings */; };
+		2D6C242D189E0DF100759BE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C242C189E0DF100759BE4 /* main.m */; };
+		2D6C2431189E0DF100759BE4 /* FRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C2430189E0DF100759BE4 /* FRPAppDelegate.m */; };
+		2D6C2433189E0DF100759BE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C2432189E0DF100759BE4 /* Images.xcassets */; };
+		2D6C243A189E0DF100759BE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2439189E0DF100759BE4 /* XCTest.framework */; };
+		2D6C243B189E0DF100759BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2420189E0DF000759BE4 /* Foundation.framework */; };
+		2D6C243C189E0DF100759BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2424189E0DF100759BE4 /* UIKit.framework */; };
+		2D6C2444189E0DF100759BE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C2442189E0DF100759BE4 /* InfoPlist.strings */; };
+		2D6C2446189E0DF100759BE4 /* FunctionalReactivePixelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C2445189E0DF100759BE4 /* FunctionalReactivePixelsTests.m */; };
+		2DF3800D189E10EC000F4E8A /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3800C189E10EC000F4E8A /* FRPGalleryViewController.m */; };
+		2DF38010189E110C000F4E8A /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3800F189E110C000F4E8A /* FRPGalleryFlowLayout.m */; };
+		6143B775833F4174AE26767E /* libPods-FunctionalReactivePixelsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B862DB4157AA494E862A3C80 /* libPods-FunctionalReactivePixelsTests.a */; };
+		620B22DC3E40483DBBF0E8DD /* libPods-FunctionalReactivePixels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9861EA9714B1416F8A88ADA7 /* libPods-FunctionalReactivePixels.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D6C243D189E0DF100759BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6C2415189E0DF000759BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6C241C189E0DF000759BE4;
+			remoteInfo = FunctionalReactivePixels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D6C241D189E0DF000759BE4 /* FunctionalReactivePixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalReactivePixels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6C2420189E0DF000759BE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D6C2422189E0DF100759BE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D6C2424189E0DF100759BE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D6C2428189E0DF100759BE4 /* FunctionalReactivePixels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunctionalReactivePixels-Info.plist"; sourceTree = "<group>"; };
+		2D6C242A189E0DF100759BE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D6C242C189E0DF100759BE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D6C242E189E0DF100759BE4 /* FunctionalReactivePixels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunctionalReactivePixels-Prefix.pch"; sourceTree = "<group>"; };
+		2D6C242F189E0DF100759BE4 /* FRPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRPAppDelegate.h; sourceTree = "<group>"; };
+		2D6C2430189E0DF100759BE4 /* FRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPAppDelegate.m; sourceTree = "<group>"; };
+		2D6C2432189E0DF100759BE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D6C2438189E0DF100759BE4 /* FunctionalReactivePixelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalReactivePixelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6C2439189E0DF100759BE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2D6C2441189E0DF100759BE4 /* FunctionalReactivePixelsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunctionalReactivePixelsTests-Info.plist"; sourceTree = "<group>"; };
+		2D6C2443189E0DF100759BE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D6C2445189E0DF100759BE4 /* FunctionalReactivePixelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionalReactivePixelsTests.m; sourceTree = "<group>"; };
+		2DF3800B189E10EC000F4E8A /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewController.h; sourceTree = "<group>"; };
+		2DF3800C189E10EC000F4E8A /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewController.m; sourceTree = "<group>"; };
+		2DF3800E189E110C000F4E8A /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
+		2DF3800F189E110C000F4E8A /* FRPGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryFlowLayout.m; sourceTree = "<group>"; };
+		31B951B95AE24067AD24CBA8 /* Pods-FunctionalReactivePixels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixels.xcconfig"; path = "Pods/Pods-FunctionalReactivePixels.xcconfig"; sourceTree = "<group>"; };
+		67C234056A324E96B5C1C760 /* Pods-FunctionalReactivePixelsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixelsTests.xcconfig"; path = "Pods/Pods-FunctionalReactivePixelsTests.xcconfig"; sourceTree = "<group>"; };
+		9861EA9714B1416F8A88ADA7 /* libPods-FunctionalReactivePixels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactivePixels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B862DB4157AA494E862A3C80 /* libPods-FunctionalReactivePixelsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactivePixelsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6C241A189E0DF000759BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C2423189E0DF100759BE4 /* CoreGraphics.framework in Frameworks */,
+				2D6C2425189E0DF100759BE4 /* UIKit.framework in Frameworks */,
+				2D6C2421189E0DF100759BE4 /* Foundation.framework in Frameworks */,
+				620B22DC3E40483DBBF0E8DD /* libPods-FunctionalReactivePixels.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6C2435189E0DF100759BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C243A189E0DF100759BE4 /* XCTest.framework in Frameworks */,
+				2D6C243C189E0DF100759BE4 /* UIKit.framework in Frameworks */,
+				2D6C243B189E0DF100759BE4 /* Foundation.framework in Frameworks */,
+				6143B775833F4174AE26767E /* libPods-FunctionalReactivePixelsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6C2414189E0DF000759BE4 = {
+			isa = PBXGroup;
+			children = (
+				2D6C2426189E0DF100759BE4 /* FunctionalReactivePixels */,
+				2D6C243F189E0DF100759BE4 /* FunctionalReactivePixelsTests */,
+				2D6C241F189E0DF000759BE4 /* Frameworks */,
+				2D6C241E189E0DF000759BE4 /* Products */,
+				31B951B95AE24067AD24CBA8 /* Pods-FunctionalReactivePixels.xcconfig */,
+				67C234056A324E96B5C1C760 /* Pods-FunctionalReactivePixelsTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6C241E189E0DF000759BE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C241D189E0DF000759BE4 /* FunctionalReactivePixels.app */,
+				2D6C2438189E0DF100759BE4 /* FunctionalReactivePixelsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6C241F189E0DF000759BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C2420189E0DF000759BE4 /* Foundation.framework */,
+				2D6C2422189E0DF100759BE4 /* CoreGraphics.framework */,
+				2D6C2424189E0DF100759BE4 /* UIKit.framework */,
+				2D6C2439189E0DF100759BE4 /* XCTest.framework */,
+				9861EA9714B1416F8A88ADA7 /* libPods-FunctionalReactivePixels.a */,
+				B862DB4157AA494E862A3C80 /* libPods-FunctionalReactivePixelsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D6C2426189E0DF100759BE4 /* FunctionalReactivePixels */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C242F189E0DF100759BE4 /* FRPAppDelegate.h */,
+				2D6C2430189E0DF100759BE4 /* FRPAppDelegate.m */,
+				2DF3800B189E10EC000F4E8A /* FRPGalleryViewController.h */,
+				2DF3800C189E10EC000F4E8A /* FRPGalleryViewController.m */,
+				2DF3800E189E110C000F4E8A /* FRPGalleryFlowLayout.h */,
+				2DF3800F189E110C000F4E8A /* FRPGalleryFlowLayout.m */,
+				2D6C2432189E0DF100759BE4 /* Images.xcassets */,
+				2D6C2427189E0DF100759BE4 /* Supporting Files */,
+			);
+			path = FunctionalReactivePixels;
+			sourceTree = "<group>";
+		};
+		2D6C2427189E0DF100759BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C2428189E0DF100759BE4 /* FunctionalReactivePixels-Info.plist */,
+				2D6C2429189E0DF100759BE4 /* InfoPlist.strings */,
+				2D6C242C189E0DF100759BE4 /* main.m */,
+				2D6C242E189E0DF100759BE4 /* FunctionalReactivePixels-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6C243F189E0DF100759BE4 /* FunctionalReactivePixelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C2445189E0DF100759BE4 /* FunctionalReactivePixelsTests.m */,
+				2D6C2440189E0DF100759BE4 /* Supporting Files */,
+			);
+			path = FunctionalReactivePixelsTests;
+			sourceTree = "<group>";
+		};
+		2D6C2440189E0DF100759BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C2441189E0DF100759BE4 /* FunctionalReactivePixelsTests-Info.plist */,
+				2D6C2442189E0DF100759BE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6C241C189E0DF000759BE4 /* FunctionalReactivePixels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6C2449189E0DF100759BE4 /* Build configuration list for PBXNativeTarget "FunctionalReactivePixels" */;
+			buildPhases = (
+				FC34557DDD6D42218DE59705 /* Check Pods Manifest.lock */,
+				2D6C2419189E0DF000759BE4 /* Sources */,
+				2D6C241A189E0DF000759BE4 /* Frameworks */,
+				2D6C241B189E0DF000759BE4 /* Resources */,
+				1FAEF27D98AD499CA9885DCF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunctionalReactivePixels;
+			productName = FunctionalReactivePixels;
+			productReference = 2D6C241D189E0DF000759BE4 /* FunctionalReactivePixels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D6C2437189E0DF100759BE4 /* FunctionalReactivePixelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6C244C189E0DF100759BE4 /* Build configuration list for PBXNativeTarget "FunctionalReactivePixelsTests" */;
+			buildPhases = (
+				2FB60317FD8B40238E85AF68 /* Check Pods Manifest.lock */,
+				2D6C2434189E0DF100759BE4 /* Sources */,
+				2D6C2435189E0DF100759BE4 /* Frameworks */,
+				2D6C2436189E0DF100759BE4 /* Resources */,
+				2B839219129E4ECAADC1BB36 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6C243E189E0DF100759BE4 /* PBXTargetDependency */,
+			);
+			name = FunctionalReactivePixelsTests;
+			productName = FunctionalReactivePixelsTests;
+			productReference = 2D6C2438189E0DF100759BE4 /* FunctionalReactivePixelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6C2415189E0DF000759BE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FRP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shadyproject;
+				TargetAttributes = {
+					2D6C2437189E0DF100759BE4 = {
+						TestTargetID = 2D6C241C189E0DF000759BE4;
+					};
+				};
+			};
+			buildConfigurationList = 2D6C2418189E0DF000759BE4 /* Build configuration list for PBXProject "FunctionalReactivePixels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D6C2414189E0DF000759BE4;
+			productRefGroup = 2D6C241E189E0DF000759BE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6C241C189E0DF000759BE4 /* FunctionalReactivePixels */,
+				2D6C2437189E0DF100759BE4 /* FunctionalReactivePixelsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6C241B189E0DF000759BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C242B189E0DF100759BE4 /* InfoPlist.strings in Resources */,
+				2D6C2433189E0DF100759BE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6C2436189E0DF100759BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C2444189E0DF100759BE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FAEF27D98AD499CA9885DCF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FunctionalReactivePixels-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B839219129E4ECAADC1BB36 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FunctionalReactivePixelsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FB60317FD8B40238E85AF68 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC34557DDD6D42218DE59705 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6C2419189E0DF000759BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C242D189E0DF100759BE4 /* main.m in Sources */,
+				2DF3800D189E10EC000F4E8A /* FRPGalleryViewController.m in Sources */,
+				2D6C2431189E0DF100759BE4 /* FRPAppDelegate.m in Sources */,
+				2DF38010189E110C000F4E8A /* FRPGalleryFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6C2434189E0DF100759BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C2446189E0DF100759BE4 /* FunctionalReactivePixelsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D6C243E189E0DF100759BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6C241C189E0DF000759BE4 /* FunctionalReactivePixels */;
+			targetProxy = 2D6C243D189E0DF100759BE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D6C2429189E0DF100759BE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6C242A189E0DF100759BE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D6C2442189E0DF100759BE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6C2443189E0DF100759BE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D6C2447189E0DF100759BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D6C2448189E0DF100759BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6C244A189E0DF100759BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B951B95AE24067AD24CBA8 /* Pods-FunctionalReactivePixels.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch";
+				INFOPLIST_FILE = "FunctionalReactivePixels/FunctionalReactivePixels-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D6C244B189E0DF100759BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B951B95AE24067AD24CBA8 /* Pods-FunctionalReactivePixels.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch";
+				INFOPLIST_FILE = "FunctionalReactivePixels/FunctionalReactivePixels-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D6C244D189E0DF100759BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C234056A324E96B5C1C760 /* Pods-FunctionalReactivePixelsTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunctionalReactivePixels.app/FunctionalReactivePixels";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FunctionalReactivePixelsTests/FunctionalReactivePixelsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2D6C244E189E0DF100759BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C234056A324E96B5C1C760 /* Pods-FunctionalReactivePixelsTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunctionalReactivePixels.app/FunctionalReactivePixels";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunctionalReactivePixels/FunctionalReactivePixels-Prefix.pch";
+				INFOPLIST_FILE = "FunctionalReactivePixelsTests/FunctionalReactivePixelsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6C2418189E0DF000759BE4 /* Build configuration list for PBXProject "FunctionalReactivePixels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6C2447189E0DF100759BE4 /* Debug */,
+				2D6C2448189E0DF100759BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6C2449189E0DF100759BE4 /* Build configuration list for PBXNativeTarget "FunctionalReactivePixels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6C244A189E0DF100759BE4 /* Debug */,
+				2D6C244B189E0DF100759BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6C244C189E0DF100759BE4 /* Build configuration list for PBXNativeTarget "FunctionalReactivePixelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6C244D189E0DF100759BE4 /* Debug */,
+				2D6C244E189E0DF100759BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6C2415189E0DF000759BE4 /* Project object */;
+}
