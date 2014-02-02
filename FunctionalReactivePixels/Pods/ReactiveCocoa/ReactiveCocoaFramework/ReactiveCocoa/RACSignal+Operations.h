@@ -95,29 +95,6 @@ extern const NSInteger RACSignalErrorNoMatchingCase;
 - (RACSignal *)repeat;
 
 /// Execute the given block each time a subscription is created.
-///
-/// block - A block which defines the subscription side effects. Cannot be `nil`.
-///
-/// Example:
-///
-///   // Write new file, with backup.
-///   [[[[fileManager
-///       rac_createFileAtPath:path contents:data]
-///       initially:^{
-///           // 2. Second, backup current file
-///           [fileManager moveItemAtPath:path toPath:backupPath error:nil];
-///       }]
-///       initially:^{
-///           // 1. First, acquire write lock.
-///           [writeLock lock];
-///       }]
-///       finally:^{
-///           [writeLock unlock];
-///       }];
-///
-/// Returns a signal that passes through all events of the receiver, plus
-/// introduces side effects which occur prior to any subscription side effects
-/// of the receiver.
 - (RACSignal *)initially:(void (^)(void))block;
 
 /// Execute the given block when the signal completes or errors.
@@ -303,46 +280,6 @@ extern const NSInteger RACSignalErrorNoMatchingCase;
 /// Subscribe to the given signal when an error occurs.
 - (RACSignal *)catchTo:(RACSignal *)signal;
 
-/// Runs `tryBlock` against each of the receiver's values, passing values
-/// until `tryBlock` returns NO, or the receiver completes.
-///
-/// tryBlock - An action to run against each of the receiver's values.
-///            The block should return YES to indicate that the action was
-///            successful. This block must not be nil.
-///
-/// Example:
-///
-///   // The returned signal will send an error if data values cannot be
-///   // written to `someFileURL`.
-///   [signal try:^(NSData *data, NSError **errorPtr) {
-///       return [data writeToURL:someFileURL options:NSDataWritingAtomic error:errorPtr];
-///   }];
-///
-/// Returns a signal which passes through all the values of the receiver. If
-/// `tryBlock` fails for any value, the returned signal will error using the
-/// `NSError` passed out from the block.
-- (RACSignal *)try:(BOOL (^)(id value, NSError **errorPtr))tryBlock;
-
-/// Runs `mapBlock` against each of the receiver's values, mapping values until
-/// `mapBlock` returns nil, or the receiver completes.
-///
-/// mapBlock - An action to map each of the receiver's values. The block should
-///            return a non-nil value to indicate that the action was successful.
-///            This block must not be nil.
-///
-/// Example:
-///
-///   // The returned signal will send an error if data cannot be read from
-///   // `fileURL`.
-///   [signal tryMap:^(NSURL *fileURL, NSError **errorPtr) {
-///       return [NSData dataWithContentsOfURL:fileURL options:0 error:errorPtr];
-///   }];
-///
-/// Returns a signal which transforms all the values of the receiver. If
-/// `mapBlock` returns nil for any value, the returned signal will error using
-/// the `NSError` passed out from the block.
-- (RACSignal *)tryMap:(id (^)(id value, NSError **errorPtr))mapBlock;
-
 /// Returns the first `next`. Note that this is a blocking call.
 - (id)first;
 
@@ -369,6 +306,10 @@ extern const NSInteger RACSignalErrorNoMatchingCase;
 ///
 /// This can be used to effectively turn a hot signal into a cold signal.
 + (RACSignal *)defer:(RACSignal * (^)(void))block;
+
+/// Send only `next`s for which -isEqual: returns NO when compared to the
+/// previous `next`.
+- (RACSignal *)distinctUntilChanged;
 
 /// Every time the receiver sends a new RACSignal, subscribes and sends `next`s and
 /// `error`s only for that signal.
