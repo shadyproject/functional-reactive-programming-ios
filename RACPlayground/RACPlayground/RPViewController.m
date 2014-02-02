@@ -21,10 +21,6 @@
     
     [self.textField.rac_textSignal subscribeNext:^(id x) {
         NSLog(@"New value: %@", x);
-    } error:^(NSError *error) {
-        NSLog(@"Error: %@", [error localizedDescription]);
-    } completed:^{
-        NSLog(@"Completed");
     }];
     
 }
