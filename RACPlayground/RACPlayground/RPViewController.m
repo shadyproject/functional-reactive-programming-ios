@@ -11,6 +11,7 @@
 
 @interface RPViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIButton *createButton;
 
 @end
 
@@ -19,14 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.textField.rac_textSignal subscribeNext:^(id x) {
-        NSLog(@"New value: %@", x);
+    RACSignal *validEmailSignal = [self.textField.rac_textSignal map:^id(id value) {
+        return @([value rangeOfString:@"@"].location != NSNotFound);
     }];
-    
+  
+    RAC(self.createButton, enabled) = validEmailSignal;
+    RAC(self.textField, textColor) = [validEmailSignal map:^id(id value) {
+        if ([value boolValue]) {
+            return [UIColor greenColor];
+        } else {
+            return [UIColor redColor];
+        }
+    }];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
