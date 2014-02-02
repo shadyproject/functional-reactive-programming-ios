@@ -7,6 +7,7 @@
 //
 
 #import "FRPGalleryViewController.h"
+#import "FRPGalleryFlowLayout.h"
 
 @interface FRPGalleryViewController ()
 
@@ -14,11 +15,11 @@
 
 @implementation FRPGalleryViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+- (id)init {
+    FRPGalleryFlowLayout *layout = [[FRPGalleryFlowLayout alloc] init];
+    self = [super initWithCollectionViewLayout:layout];
     if (self) {
-        // Custom initialization
+        //stuff here
     }
     return self;
 }
