@@ -9,8 +9,16 @@
 #import "FRPAppDelegate.h"
 #import "FRPGalleryViewController.h"
 
+//these default keys are from the book, and they dont' currently work
+//you should probably get your own
+NSString * const kFRPFiveHundredPixelsDefaultConsumerKey = @"DC2To2BS0ic1ChKDK15d44M42YHf9gbUJ";
+NSString * const kFRPFiveHundredPixelsDefaultConsumerSecret = @"i8WL4chWoZ4kw9fh3jzHK7XzTer1y5tUNvsTFNnB";
+
 @interface FRPAppDelegate ()
 @property (nonatomic, strong) PXAPIHelper *apiHelper;
+
+@property (nonatomic, strong) NSString *fiveHundredPixelsConsumerKey;
+@property (nonatomic, strong) NSString *fiveHundredPixelsConsumerSecret;
 @end
 
 
@@ -18,10 +26,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    [self loadApiKeys];
     self.apiHelper = [[PXAPIHelper alloc] initWithHost:nil
-                                           consumerKey:@"DC2To2BS0ic1ChKDK15d44M42YHf9gbUJ"
-                                        consumerSecret:@"i8WL4chWoZ4kw9fh3jzHK7XzTer1y5tUNvsTFNnB"];
+                                           consumerKey:self.fiveHundredPixelsConsumerKey
+                                        consumerSecret:self.fiveHundredPixelsConsumerSecret];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
@@ -32,6 +40,30 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)loadApiKeys{
+    //store our actual keys in this file, it's not included in git, so use defualts if we can't load it
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"api-keys" ofType:@"json"];
+    
+    if (path) {
+        NSError *error = nil;
+        
+        NSData *data = [NSData dataWithContentsOfFile:path];
+        NSDictionary *keys = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+        
+        if (!error) {
+            self.fiveHundredPixelsConsumerKey = keys[@"consumer_key"];
+            self.fiveHundredPixelsConsumerSecret = keys[@"consumer_secret"];
+        } else {
+            NSLog(@"Couldn't load keys from json file: %@", error);
+            self.fiveHundredPixelsConsumerKey = kFRPFiveHundredPixelsDefaultConsumerKey;
+            self.fiveHundredPixelsConsumerSecret = kFRPFiveHundredPixelsDefaultConsumerSecret;
+        }
+    } else {
+        self.fiveHundredPixelsConsumerKey = kFRPFiveHundredPixelsDefaultConsumerKey;
+        self.fiveHundredPixelsConsumerSecret = kFRPFiveHundredPixelsDefaultConsumerSecret;
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

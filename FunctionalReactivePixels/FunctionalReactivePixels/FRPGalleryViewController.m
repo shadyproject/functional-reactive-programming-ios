@@ -9,6 +9,7 @@
 #import "FRPGalleryViewController.h"
 #import "FRPGalleryFlowLayout.h"
 #import "FRPPhotoImporter.h"
+#import "FRPCell.h"
 
 @interface FRPGalleryViewController ()
 @property (nonatomic, strong) NSArray *photosArray;

@@ -14,4 +14,6 @@
 
 @property (nonatomic, readonly) PXAPIHelper *apiHelper;
 
+@property (nonatomic, readonly) NSString *fiveHundredPixelsConsumerKey;
+@property (nonatomic, readonly) NSString *fiveHundredPixelsConsumerSecret;
 @end

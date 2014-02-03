@@ -21,8 +21,10 @@
 		2D6C2446189E0DF100759BE4 /* FunctionalReactivePixelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C2445189E0DF100759BE4 /* FunctionalReactivePixelsTests.m */; };
 		2D824E22189E1811003690AB /* FRPPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D824E21189E1811003690AB /* FRPPhotoModel.m */; };
 		2D824E25189E1929003690AB /* FRPPhotoImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D824E24189E1929003690AB /* FRPPhotoImporter.m */; };
+		2D824E28189E2537003690AB /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D824E27189E2537003690AB /* FRPCell.m */; };
 		2DF3800D189E10EC000F4E8A /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3800C189E10EC000F4E8A /* FRPGalleryViewController.m */; };
 		2DF38010189E110C000F4E8A /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3800F189E110C000F4E8A /* FRPGalleryFlowLayout.m */; };
+		2DFDE324189F1BB80036D4C9 /* api-keys.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DFDE323189F1BB80036D4C9 /* api-keys.json */; };
 		6143B775833F4174AE26767E /* libPods-FunctionalReactivePixelsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B862DB4157AA494E862A3C80 /* libPods-FunctionalReactivePixelsTests.a */; };
 		620B22DC3E40483DBBF0E8DD /* libPods-FunctionalReactivePixels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9861EA9714B1416F8A88ADA7 /* libPods-FunctionalReactivePixels.a */; };
 /* End PBXBuildFile section */
@@ -58,10 +60,13 @@
 		2D824E21189E1811003690AB /* FRPPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoModel.m; sourceTree = "<group>"; };
 		2D824E23189E1929003690AB /* FRPPhotoImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoImporter.h; sourceTree = "<group>"; };
 		2D824E24189E1929003690AB /* FRPPhotoImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoImporter.m; sourceTree = "<group>"; };
+		2D824E26189E2537003690AB /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		2D824E27189E2537003690AB /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
 		2DF3800B189E10EC000F4E8A /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewController.h; sourceTree = "<group>"; };
 		2DF3800C189E10EC000F4E8A /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewController.m; sourceTree = "<group>"; };
 		2DF3800E189E110C000F4E8A /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
 		2DF3800F189E110C000F4E8A /* FRPGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryFlowLayout.m; sourceTree = "<group>"; };
+		2DFDE323189F1BB80036D4C9 /* api-keys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "api-keys.json"; sourceTree = "<group>"; };
 		31B951B95AE24067AD24CBA8 /* Pods-FunctionalReactivePixels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixels.xcconfig"; path = "Pods/Pods-FunctionalReactivePixels.xcconfig"; sourceTree = "<group>"; };
 		67C234056A324E96B5C1C760 /* Pods-FunctionalReactivePixelsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactivePixelsTests.xcconfig"; path = "Pods/Pods-FunctionalReactivePixelsTests.xcconfig"; sourceTree = "<group>"; };
 		9861EA9714B1416F8A88ADA7 /* libPods-FunctionalReactivePixels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactivePixels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +148,8 @@
 				2D824E21189E1811003690AB /* FRPPhotoModel.m */,
 				2D824E23189E1929003690AB /* FRPPhotoImporter.h */,
 				2D824E24189E1929003690AB /* FRPPhotoImporter.m */,
+				2D824E26189E2537003690AB /* FRPCell.h */,
+				2D824E27189E2537003690AB /* FRPCell.m */,
 			);
 			path = FunctionalReactivePixels;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 		2D6C2427189E0DF100759BE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2DFDE323189F1BB80036D4C9 /* api-keys.json */,
 				2D6C2428189E0DF100759BE4 /* FunctionalReactivePixels-Info.plist */,
 				2D6C2429189E0DF100759BE4 /* InfoPlist.strings */,
 				2D6C242C189E0DF100759BE4 /* main.m */,
@@ -257,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D6C242B189E0DF100759BE4 /* InfoPlist.strings in Resources */,
+				2DFDE324189F1BB80036D4C9 /* api-keys.json in Resources */,
 				2D6C2433189E0DF100759BE4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D824E22189E1811003690AB /* FRPPhotoModel.m in Sources */,
+				2D824E28189E2537003690AB /* FRPCell.m in Sources */,
 				2D6C242D189E0DF100759BE4 /* main.m in Sources */,
 				2DF3800D189E10EC000F4E8A /* FRPGalleryViewController.m in Sources */,
 				2D824E25189E1929003690AB /* FRPPhotoImporter.m in Sources */,
