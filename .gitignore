@@ -1,3 +1,6 @@
+# my custom stuff to ignore
+FunctionalReactivePixels/FunctionalReactivePixels/api-keys.json
+
 #########################
 # .gitignore file for Xcode4 / OS X Source projects
 #
