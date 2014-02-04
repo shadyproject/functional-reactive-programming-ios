@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D35A30B189F5D2F00A06615 /* FRPFullSizePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35A30A189F5D2F00A06615 /* FRPFullSizePhotoViewController.m */; };
+		2D35A30E189F783300A06615 /* FRPPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D35A30D189F783300A06615 /* FRPPhotoViewController.m */; };
 		2D6C2421189E0DF100759BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2420189E0DF000759BE4 /* Foundation.framework */; };
 		2D6C2423189E0DF100759BE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2422189E0DF100759BE4 /* CoreGraphics.framework */; };
 		2D6C2425189E0DF100759BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C2424189E0DF100759BE4 /* UIKit.framework */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D35A309189F5D2F00A06615 /* FRPFullSizePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPFullSizePhotoViewController.h; sourceTree = "<group>"; };
+		2D35A30A189F5D2F00A06615 /* FRPFullSizePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPFullSizePhotoViewController.m; sourceTree = "<group>"; };
+		2D35A30C189F783300A06615 /* FRPPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoViewController.h; sourceTree = "<group>"; };
+		2D35A30D189F783300A06615 /* FRPPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoViewController.m; sourceTree = "<group>"; };
 		2D6C241D189E0DF000759BE4 /* FunctionalReactivePixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalReactivePixels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6C2420189E0DF000759BE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D6C2422189E0DF100759BE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +156,10 @@
 				2D824E24189E1929003690AB /* FRPPhotoImporter.m */,
 				2D824E26189E2537003690AB /* FRPCell.h */,
 				2D824E27189E2537003690AB /* FRPCell.m */,
+				2D35A309189F5D2F00A06615 /* FRPFullSizePhotoViewController.h */,
+				2D35A30A189F5D2F00A06615 /* FRPFullSizePhotoViewController.m */,
+				2D35A30C189F783300A06615 /* FRPPhotoViewController.h */,
+				2D35A30D189F783300A06615 /* FRPPhotoViewController.m */,
 			);
 			path = FunctionalReactivePixels;
 			sourceTree = "<group>";
@@ -351,7 +361,9 @@
 				2D824E22189E1811003690AB /* FRPPhotoModel.m in Sources */,
 				2D824E28189E2537003690AB /* FRPCell.m in Sources */,
 				2D6C242D189E0DF100759BE4 /* main.m in Sources */,
+				2D35A30E189F783300A06615 /* FRPPhotoViewController.m in Sources */,
 				2DF3800D189E10EC000F4E8A /* FRPGalleryViewController.m in Sources */,
+				2D35A30B189F5D2F00A06615 /* FRPFullSizePhotoViewController.m in Sources */,
 				2D824E25189E1929003690AB /* FRPPhotoImporter.m in Sources */,
 				2D6C2431189E0DF100759BE4 /* FRPAppDelegate.m in Sources */,
 				2DF38010189E110C000F4E8A /* FRPGalleryFlowLayout.m in Sources */,

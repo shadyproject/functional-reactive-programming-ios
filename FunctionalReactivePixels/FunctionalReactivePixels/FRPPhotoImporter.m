@@ -18,6 +18,10 @@
                                                   except:PXPhotoModelCategoryNude];
 }
 
++(NSURLRequest*)photoUrlRequest:(FRPPhotoModel*)photoModel{
+    return [AppDelegate.apiHelper urlRequestForPhotoID:photoModel.identifier.integerValue];
+}
+
 +(void)configurePhotoModel:(FRPPhotoModel*)photoModel withDictionary:(NSDictionary*)dictionary{
     photoModel.photoName = dictionary[@"name"];
     photoModel.identifier = dictionary[@"id"];
@@ -39,13 +43,27 @@
 }
 
 +(void)downloadThumbnailForPhotoModel:(FRPPhotoModel*)photoModel{
-    NSAssert(photoModel.thumbnailUrl, @"Thumbnail URL must not be nil");
+    [self download:photoModel.thumbnailUrl withCompletion:^(NSData *data){
+        photoModel.thumbnailData = data;
+    }];
+}
+
++(void)downloadFullsizedImageForPhotoModel:(FRPPhotoModel*)photoModel{
+    [self download:photoModel.fullsizedUrl withCompletion:^(NSData *data){
+        photoModel.fullsizedData = data;
+    }];
+}
+
++(void)download:(NSString*)urlString withCompletion:(void(^)(NSData *data))completion{
+    NSAssert(urlString, @"Url must not be nil");
     
-    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:photoModel.thumbnailUrl]];
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
     
     [NSURLConnection sendAsynchronousRequest:req queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-                               photoModel.thumbnailData = data;
+                               if (completion) {
+                                   completion(data);
+                               }
                            }];
 }
 
@@ -73,6 +91,26 @@
     return subject;
 }
 
-
++(RACReplaySubject*)fetchPhotoDetails:(FRPPhotoModel*)photoModel{
+    RACReplaySubject *subject = [RACReplaySubject subject];
+    
+    NSURLRequest *req = [self photoUrlRequest:photoModel];
+    
+    [NSURLConnection sendAsynchronousRequest:req queue:[NSOperationQueue mainQueue]
+                           completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+                               if (data) {
+                                   id results = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil][@"photo"];
+                                   [self configurePhotoModel:photoModel withDictionary:results];
+                                   [self downloadFullsizedImageForPhotoModel:photoModel];
+                                   
+                                   [subject sendNext:photoModel];
+                                   [subject sendCompleted];
+                               } else {
+                                   [subject sendError:connectionError];
+                               }
+                           }];
+    
+    return subject;
+}
 
 @end

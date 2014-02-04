@@ -16,5 +16,5 @@
 @property (nonatomic, strong) NSString *thumbnailUrl;
 @property (nonatomic, strong) NSData *thumbnailData;
 @property (nonatomic, strong) NSString *fullsizedUrl;
-@property (nonatomic, strong) NSDictionary *fullsizedData;
+@property (nonatomic, strong) NSData *fullsizedData;
 @end
